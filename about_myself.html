@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="author" content="Andre Koenen">
     <title>About myself</title>
-    <link rel="stylesheet" href="./styles/main.css"></link>
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="./styles/widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 899px)" href="./styles/smallscreen.css">
   </head>
   <body>
     <header>
@@ -20,8 +21,8 @@
       </ul>
     </nav>
     <article>
-      <div class="gallery-item"><p>My person</p></div>
-      <div class="gallery-item"><p>My interests</p></div>
+      <div onclick="document.location.href = 'my_person.html'" class="gallery-item"><p>My person</p></div>
+      <div onclick="document.location.href = 'my_interests.html'" class="gallery-item"><p>My interests</p></div>
     </article>
     <footer>
       <p>© 2024 André Könen. All rights reserved.</p>
